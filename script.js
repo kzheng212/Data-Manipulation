@@ -13,7 +13,7 @@
 // Assignment Lab Link
 // https://www.canva.com/design/DAFxiNus6dk/N170Fss8bc8VJb6iPbpuxg/view
 
-// Link for Cop Template
+// Link for Copy Template
 // https://codesandbox.io/s/alab-308-1-1-activity-one-example-yhd2x8?from-embed
 
 /* 
@@ -118,7 +118,7 @@ console.log(is1stNumMoreThanNthNum);
 
 */
 
-const formula = ((n2 - n1) * n3) / n4;
+const formula = ((n2 - n1) * n3) % n4;
 console.log(formula);
 
 /* 
@@ -132,8 +132,17 @@ console.log(formula);
 
 */
 
-const isOver25Ver2 = n1 / 25 > 1 || n2 / 25 > 1 || n3 / 25 > 1 || n4 / 25 > 1;
-console.log(isOver25Ver2);
+// const isOver25Ver2 = n1 / 25 > 1 || n2 / 25 > 1 || n3 / 25 > 1 || n4 / 25 > 1;
+// console.log(isOver25Ver2);
+
+const isEqualOrLess25 = n1 <= 25 || n2 <= 25 || n3 <= 25 || n4 <= 25;
+console.log(isEqualOrLess25);
+
+//
+const isValidV2 = isSum50 && isTwoOdd && isEqualOrLess25 && isUnique;
+
+// Finally, log the results.
+console.log(isValid);
 
 /* 
 =======================================================
